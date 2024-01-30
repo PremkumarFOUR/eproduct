@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="#product-description">Description</a></li>
+            <li><a href="#product-color">Color</a></li>
+            <li><a href="#cable-config">Cable Configuration</a></li>
+            <li><a href="#product-price">Price</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main class="container">
+ 
+        
+        
+        <div class="left-column">
+          <img data-image="black" src="C:\Users\premk\Downloads\download.jfif" alt="">
+          <img data-image="blue" src="C:\Users\premk\Downloads\download.jfif" alt="">
+          <img data-image="red" class="active" src="C:\Users\premk\Downloads\download.jfif" alt="">
+        </div>
+       
+       
+        
+        
+        <div class="right-column">
+       
+          
+            
+          <div id="product-description" class="product-description">
+            <span>Headphones</span>
+            <h1>Beats EP</h1>
+            <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+          </div>
+       
+          
+          
+          <div class="product-configuration">
+       
+            
+            
+            <div id="product-color" class="product-color">
+              <span>Color</span>
+       
+              <div class="color-choose">
+                <div>
+                  <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                  <label for="red"><span></span></label>
+                </div>
+                <div>
+                  <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                  <label for="blue"><span></span></label>
+                </div>
+                <div>
+                  <input data-image="black" type="radio" id="black" name="color" value="black">
+                  <label for="black"><span></span></label>
+                </div>
+              </div>
+       
+            </div>
+       
+           
+            
+            <div id="cable-config" class="cable-config">
+              <span>Cable configuration</span>
+       
+              <div class="cable-choose">
+                <button>Straight</button>
+                <button>Coiled</button>
+                <button>Long-coiled</button>
+              </div>
+       
+              <a href="#">How to configurate your headphones</a>
+            </div>
+          </div>
+       
+          
+          
+          <div id="product-price" class="product-price">
+            <span>148$</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+          </div>
+        </div>
+      </main>
+      <script src="script.js"></script>
+
+</body>
+</html>
